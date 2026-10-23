@@ -1,0 +1,18 @@
+# Datasets and trained outputs (not for public redistribution)
+emnist-letters.csv
+*.csv
+*.h5
+*.keras
+*.hdf5
+!models/legacy_final_tuned_weights.h5
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.env
+.env.*
